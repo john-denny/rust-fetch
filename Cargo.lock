@@ -12,13 +12,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "crust-fetch"
-version = "0.1.0"
-dependencies = [
- "regex",
-]
-
-[[package]]
 name = "memchr"
 version = "2.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -52,3 +45,10 @@ name = "regex-syntax"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
+
+[[package]]
+name = "rust-fetch"
+version = "0.1.0"
+dependencies = [
+ "regex",
+]
